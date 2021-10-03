@@ -1,11 +1,25 @@
 /* Add your code in each class */
 .container {
+  height: 300px;
+  text-align: center;
+  overflow: scroll;
 }
 .head {
+  font-family: fantasy;
+  background-color: rgb(29, 20, 53);
+  color: rgb(122, 23, 70);
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  text-align: center;
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+  background-color: rgb(88, 66, 149);
+  color: rgb(253, 67, 166);
+  font-family: cursive;
+  padding: 10px;
 }
 
 /* This is a gift - Does not need editing */
